@@ -1,0 +1,28 @@
+{
+    "name": "nazalas/steganography",
+    "description": "Steganography package for Laravel",
+    "suggest": {
+        "intervention/image": "Image manipulation library"
+    },
+    "authors": [
+        {
+            "name": "Brent Edds",
+            "email": "brent.edds@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nazalas\\Steganography\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nazalas\\Steganography\\SteganographyServiceProvider"
+            ],
+            "aliases": {
+                "steganography": "Nazalas\\Steganography\\Facades\\Steganography"
+            }
+        }
+    }
+}
