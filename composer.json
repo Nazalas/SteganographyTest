@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Nazalas\\Steganography\\": "src"
+            "Nazalas\\Steganography\\": "src/"
         }
     },
     "minimum-stability": "stable",
