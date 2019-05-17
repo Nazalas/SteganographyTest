@@ -15,6 +15,7 @@
             "Nazalas\\Steganography\\": "src"
         }
     },
+    "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
